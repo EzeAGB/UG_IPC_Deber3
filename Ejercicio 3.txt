@@ -1,0 +1,58 @@
+Pez:
+
+Enunciados simples verdaderos:
+
+-Puede nadar.
+-Tiene escamas.
+-Tiene agallas.
+-Tiene dos ojos.
+-Está vivo.
+-Tiene aletas.
+
+Enunciados simples falsos:
+
+-Puede caminar.
+-Tiene alas.
+-Come chivitos.
+-Sabe escribir.
+-Juega al fútbol.
+-Duerme en una cama.
+
+Proposiciones lógicas:
+
+-Puede nadar y puede caminar.
+	Proposiciones usadas: Conjunción.
+	Resultado: Falso.
+-Tiene escamas y tiene alas.
+	Proposiciones usadas: Conjunción.
+	Resultado: Falso.
+-Tiene agallas y come chivitos.
+	Proposiciones usadas: Conjunción.
+	Resultado: Falso.
+-Tiene dos ojos y sabe escribir.
+	Proposiciones usadas: Conjunción.
+	Resultado: Falso.
+-Está vivo y juega al fútbol.
+	Proposiciones usadas: Conjunción.
+	Resultado: Falso.
+-Tiene aletas y duerme en una cama.
+	Proposiciones usadas: Conjunción.
+	Resultado: Falso.
+-No puede caminar.
+	Proposiciones usadas: Negación.
+	Resultado: Verdadero.
+-Tiene alas o está vivo.
+	Proposiciones usadas: Disyunción.
+	Resultado: Verdadero.
+-No come chivitos y juega al fútbol.
+	Proposiciones usadas: Conjunción y negación.
+	Resultado: Falso.
+-Sabe escribir o puede nadar.
+	Proposiciones usadas: Disyunción.
+	Resultado: Verdadero.
+-No juega al fútbol o no puede nadar.
+	Proposiciones usadas: Disyunción y negación.
+	Resultado: Verdadero.
+-No duerme en una cama y no puede caminar o sabe escribir.
+	Proposiciones usadas: Conjunción, disyunción y negación.
+	Resultado: Verdadero.

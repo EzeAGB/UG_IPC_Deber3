@@ -1,0 +1,50 @@
+Algoritmos:
+
+// "Preparar un licuado de frutas tropicales":
+
+bool PrepararLicuadoDeFrutasTropicales(bool agregarAzucar, ref Jarra jarraLicuado)
+{
+	bool licuadoFuePreparado = false;
+	
+	if (jarraLicuado.ObtenerCapacidadLitros() < 1.0f) 
+		return licuadoFuePreparado;
+	
+	if (tengoCuchillo && 
+		tengoTablaDePicar && 
+		tengoLicuadora && 
+		litrosLeche >= 0.5f && 
+		cantAnanas >= 1 && 
+		cantBananas >= 2 && 
+		cantFrutillas >= 15)
+	{
+		var frutaPicada = pelarPicarFruta(con: [tablaDePicar, cuchillo], fruta: [ananas.Get(1), bananas.Get(2), frutillas.Get(15)]);
+		licuadora.Agregar(frutaPicada);
+		licuadora.Agregar(leche, litros: 0.5f)
+		licuadora.Prender(velocidad: 3);
+		licuadora.VolcarLicuadoEnJarra(ref jarraLicuado);
+		licuadoFuePreparado = true;
+	}
+	
+	if (licuadoFuePreparado && agregarAzucar && cantAzucar >= 0.01f)
+	{
+		jarraLicuado.Agregar(azucar, cantidad: 0.01f);
+	}
+	
+	return licuadoFuePreparado;
+}
+
+// "Cocer un hoyo de un pantalón":
+
+bool ArreglarAgujeroPantalon(ref Pantalon pantalon)
+{
+	bool fueArreglado = false;
+	if (!pantalon.EstaRoto()) return fueArreglado;
+	
+	if (!tengoAguja || !tengoRetazoTela || largoHilo < 0.5f) return fueArreglado;
+	
+	aguja.AgregarHilo(ref hilo);
+	aguja.CoserAgujeroEn(ref Pantalon, con: retazoTela);
+	
+	fueArreglado = true;
+	return fueArreglado;
+}
